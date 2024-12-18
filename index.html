@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="shortcut icon" href="./assets/imgs/logo.jpg" type="image/jpg">
+
+  <title>Arruda's Informática</title>
+</head>
+
+<body>
+  <header class="cabecalho-bg">
+    <div class="bg-mobile"></div>
+    <div class="cabecalho container">
+      <nav>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="#servicos">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a href="#vantagens">Vantagens</a>
+          </li>
+          <li class="nav-item">
+            <a href="#depoimentos">Depoimentos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro-bg">
+      <div class="intro container">
+        <div class="intro-texto">
+          <h1>Assistência técnica especializada em computadores e notebooks.</h1>
+          <p>
+            Oferecemos atendimento ágil, honesto e com preço justo. Conte conosco para resolver seus problemas de forma eficiente e confiável.
+          </p>
+          <q>
+            Nossa missão é ajudar as pessoas a interagirem com as tecnologias de uma maneira satisfatória e harmônica.
+          </q>
+        </div>
+        <div class="intro-orcamento">
+          <h2>Solicitar um orçamento</h2>
+          <form id="form">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+            <label for="dispositivo">Dispositivo</label>
+            <select name="dispositivo" id="dispositivo">
+              <option value="computador">Computador</option>
+              <option value="notebook">Notebook</option>
+            </select>
+            <label for="modelo">Modelo</label>
+            <input type="text" id="modelo" name="modelo" required>
+            <label for="problema">Descrição do problema</label>
+            <textarea name="problema" id="problema" cols="30" rows="10" required></textarea>
+            <button type="submit" id="solicitarOrcamento">SOLICITAR ORÇAMENTO</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="servicos" id="servicos">
+      <div class="container">
+        <h2>Serviços</h2>
+        <div class="servicos-grid">
+          <div class="servico ">
+            <h3 class="icone1">Manutenção de computadores</h3>
+            <p>
+              Realizamos manutenção preventiva e corretiva em computadores de todas as marcas e modelos.
+            </p>
+          </div>
+
+          <div class="servico ">
+            <h3 class="icone2">Substituição de Hardware</h3>
+            <p>
+              Identificação precisa das peças defeituosas e recomendações para substituição.
+            </p>
+          </div>
+
+          <div class="servico ">
+            <h3 class="icone3">Consultoria em TI</h3>
+            <p>
+              Gestão de sistemas otimizados. Expertise em recursos. Suporte contínuo. Transforme seu negócio conosco.
+            </p>
+          </div>
+
+          <div class="servico ">
+            <h3 class="icone4">Segurança da Informação</h3>
+            <p>
+              Instalação e configuração de firewalls, antivírus e outras ferramentas de segurança para proteger seus dados contra ataques cibernéticos.
+            </p>
+          </div>
+
+          <div class="servico ">
+            <h3 class="icone5">Instalação de Drivers</h3>
+            <p>
+              Configuração completa dos drivers necessários para garantir o funcionamento correto de todos os componentes.
+            </p>
+          </div>
+
+          <div class="servico ">
+            <h3 class="icone6">Backup Seguro</h3>
+            <p>
+              Proteja seus dados importantes com um backup confiável antes da formatação.
+            </p>
+          </div>
+        </div>
+    </section>
+
+    <section class="vantagens-bg" id="vantagens">
+      <div class="vantagens container">
+        <h2>Vantagens</h2>
+        <div class="vantagens-grid">
+          <div class="vantagem">
+            <div class="vantagem-titulo">
+              <h3>Atendimento personalizado</h3>
+            </div>
+            <div class="vantagem-texto">
+              <p>
+                Nosso compromisso é com a excelência no atendimento, proporcionando soluções personalizadas para resolver o seu problema de forma eficaz. Estamos aqui para ouvir suas necessidades e encontrar as melhores maneiras de ajudá-lo.
+              </p>
+            </div>
+          </div>
+          <div class="vantagem">
+            <div class="vantagem-titulo">
+              <h3>Preço Justo</h3>
+            </div>
+            <div class="vantagem-texto">
+              <p>
+                Soluções de alta qualidade a preços acessíveis, assegurando que você obtenha o máximo retorno pelo seu investimento. Nossa abordagem cuidadosa e orientada para o cliente visa não apenas atender às suas necessidades, mas também superar suas expectativas.
+              </p>
+            </div>
+          </div>
+          <div class="vantagem">
+            <div class="vantagem-titulo">
+              <h3>Transparencia</h3>
+            </div>
+            <div class="vantagem-texto">
+              <p>
+                A transparência é a base de relacionamentos sólidos e confiáveis. Assim, mantemos uma comunicação aberta em todos os aspectos do nosso trabalho, desde políticas e processos até preços e produtos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="depoimentos-google" id="depoimentos">
+      <div class="container">
+        <h2>Depoimentos</h2>
+        <script defer async src='https://cdn.trustindex.io/loader.js?5b0547b28b0f727a1e0600b8af0'></script>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <div class="container">
+      <img src="assets/imgs/logo.svg" alt="" height="100px" width="100px">
+      <a href="mailto:suporte@arrudasinformatica.com.br">suporte@arrudasinformatica.com.br</a>
+      <a href="tel:5584991471224">(84)99147-1224</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
